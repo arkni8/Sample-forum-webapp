@@ -7,6 +7,8 @@ The login page
 ![Landing page if logged in](/ScreenHomepage.png)
 The homepage
 
+![Comment Section](/ScreenComments.png)
+The complete post and comments on the post
 
 ### Notable features and techs used :-
 
