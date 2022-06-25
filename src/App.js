@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Header from "./component/Header";
 import Register from "./component/pages/Register";
 import AuthProvider from "./context/authContext";
@@ -29,14 +29,26 @@ const ChangeDisplayPicture = React.lazy(() =>
 );
 
 function App() {
+
+  const location = useLocation();
+
+  function checkWhichPage() {
+    // eslint-disable-next-line
+    if (location.pathname != '/login' && location.pathname != '/register' && location.pathname != '/profile-name') {
+      return ('grow shrink-0 xsm:flex xsm:w-full px-1 xsm:px-6 pb-4 bg-slate-100 bg-opacity-40 xl:bg-opacity-0');
+    } else {
+      return;
+    }
+  }
+
   return (
     <AuthProvider>
       <div
         className='container mx-auto max-w-6xl min-h-screen flex flex-col xsm:after:bg-purple-900 xsm:after:bg-[url(./img/heropattern.svg)] bg-center
         xsm:after:[mask-image:linear-gradient(90deg,white_0%,rgba(255,255,255,0.3)_20%,rgba(255,255,255,0.3)_80%,white_100%)]
-      xsm:after:fixed xsm:after:inset-0 *xsm:after:bg-indigo-900 xsm:after:-z-10'>
+      xsm:after:fixed xsm:after:inset-0 xsm:after:-z-10'>
         <Header />
-        <div className='grow shrink-0 xsm:flex xsm:w-full px-1 xsm:px-6 pb-4 bg-slate-100 bg-opacity-40 xl:bg-opacity-0'>
+        <div className={`${checkWhichPage()}`}>
           <Routes>
             <Route path='/register' element={<Register />} />
             <Route path='/login' element={<Login />} />
