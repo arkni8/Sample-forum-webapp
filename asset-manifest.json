@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sample-forum-webapp/static/css/main.29cf9b6b.css",
-    "main.js": "/Sample-forum-webapp/static/js/main.afc2d86d.js",
+    "main.js": "/Sample-forum-webapp/static/js/main.3fad42f3.js",
     "static/js/801.5aef98b4.chunk.js": "/Sample-forum-webapp/static/js/801.5aef98b4.chunk.js",
     "static/js/625.41cf3c5f.chunk.js": "/Sample-forum-webapp/static/js/625.41cf3c5f.chunk.js",
     "static/js/310.5d3d5387.chunk.js": "/Sample-forum-webapp/static/js/310.5d3d5387.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/down.svg": "/Sample-forum-webapp/static/media/down.b9b3605baf06eaecb5e758e48b58ddf7.svg",
     "static/media/up.svg": "/Sample-forum-webapp/static/media/up.9dfd3a1c61b109119b73d7731b5cff15.svg",
     "main.29cf9b6b.css.map": "/Sample-forum-webapp/static/css/main.29cf9b6b.css.map",
-    "main.afc2d86d.js.map": "/Sample-forum-webapp/static/js/main.afc2d86d.js.map",
+    "main.3fad42f3.js.map": "/Sample-forum-webapp/static/js/main.3fad42f3.js.map",
     "801.5aef98b4.chunk.js.map": "/Sample-forum-webapp/static/js/801.5aef98b4.chunk.js.map",
     "625.41cf3c5f.chunk.js.map": "/Sample-forum-webapp/static/js/625.41cf3c5f.chunk.js.map",
     "310.5d3d5387.chunk.js.map": "/Sample-forum-webapp/static/js/310.5d3d5387.chunk.js.map",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.29cf9b6b.css",
-    "static/js/main.afc2d86d.js"
+    "static/js/main.3fad42f3.js"
   ]
 }
