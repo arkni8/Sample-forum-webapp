@@ -1,10 +1,10 @@
 # Sample-forum-webapp
 An app where you can submit posts/questions and votes your favors. You can also access user account settings too!
 
-![Login page](/Screenshot 2022-06-25 at 22-30-42 Sample Website.png)
+![Login page](/ScreenLogin.png)
 The login page
 
-![Landing page if logged in](/Screenshot 2022-06-25 at 22-33-59 Sample Website.png)
+![Landing page if logged in](/ScreenHomepage.png)
 The homepage
 
 
