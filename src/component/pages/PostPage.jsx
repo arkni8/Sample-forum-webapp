@@ -36,7 +36,7 @@ function PostPage() {
   }
 
   return (
-    <div className='space-y-4'>
+    <div className='space-y-4 w-full'>
       <div className='pt-1'>
         <p onClick={() => nav(-1)} id='back-navigation' className='font-bold py-2 text-right text-red-600 shadow shadow-black px-3 rounded-xl mt-2 cursor-pointer bg-white
         hover:bg-red-500 hover:text-white active:scale-[99%]'> &lt; Back to the Posts</p>
