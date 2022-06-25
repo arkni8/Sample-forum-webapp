@@ -1,0 +1,11 @@
+{
+  "short_name": "Clone of Wiretel",
+  "name": "Clone of Wiretel",
+  "icons": [
+
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
